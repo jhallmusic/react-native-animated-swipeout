@@ -1,5 +1,5 @@
 {
-  "name": "react-native-swipeout",
+  "name": "react-native-animated-swipeout",
   "version": "2.0.12",
   "description": "iOS-style swipeout buttons behind component",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dancormier/react-native-swipeout.git"
+    "url": "git@github.com/latusaki/react-native-animated-swipeout.git"
   },
   "keywords": [
     "react-native",
@@ -22,13 +22,16 @@
   "author": "Dan Cormier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dancormier/react-native-swipeout/issues"
+    "url": "https://github.com/latusaki/react-native-animated-swipeout/issues"
   },
-  "homepage": "https://github.com/dancormier/react-native-swipeout",
+  "homepage": "https://github.com/latusaki/react-native-animated-swipeout",
   "dependencies": {
     "react-tween-state": "^0.1.3"
   },
   "peerDependencies": {
-    "react-native": "^0.x"
+    "react-native": "^0.25"
+  },
+  "directories": {
+    "example": "example"
   }
 }

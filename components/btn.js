@@ -1,10 +1,10 @@
-var React = require('react-native');
-var {
+import React from 'react';
+import {
   Animated,
   StyleSheet,
   Text,
   TouchableHighlight,
-} = React
+} from 'react-native';
 
 class Btn extends React.Component {
   setTypeStyle(element) {
@@ -43,7 +43,7 @@ class Btn extends React.Component {
 
 /* Style */
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   btn: {
     backgroundColor: '#b6bec0',
     flex: 1,
@@ -68,4 +68,4 @@ var styles = StyleSheet.create({
   },
 });
 
-module.exports = Btn;
+export default Btn;

@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/dancormier/react-native-swipeout/issues"
   },
-  "homepage": "https://github.com/dancormier/react-native-swipeout",
-  "peerDependencies": {
-    "react-native": ">=0.20.0"
-  }
+  "homepage": "https://github.com/dancormier/react-native-swipeout"
 }

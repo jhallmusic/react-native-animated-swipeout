@@ -1,12 +1,12 @@
-const React = require('react-native');
-const {
+import React from 'react';
+import {
   Animated,
   PanResponder,
   StyleSheet,
   View
-} = React
+} from 'react-native';
 
-const Btn = require('./components/btn.js');
+import Btn from './components/btn.js';
 
 class Swipeout extends React.Component {
   componentDidMount() {
@@ -29,9 +29,9 @@ class Swipeout extends React.Component {
   }
   componentWillUnmount() {
     let { panX } = this.state;
-
     panX.removeAllListeners();
   }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -363,7 +363,7 @@ class Swipeout extends React.Component {
   }
 };
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   btns: {
     backgroundColor: 'blue',
     flex: 1,
@@ -379,4 +379,4 @@ var styles = StyleSheet.create({
   },
 });
 
-module.exports = Swipeout;
+export default Swipeout;

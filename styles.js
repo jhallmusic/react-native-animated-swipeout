@@ -1,9 +1,8 @@
 import { StyleSheet } from 'react-native'
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   swipeout: {
     backgroundColor: '#dbddde',
-    flex: 1,
     overflow: 'hidden',
   },
   swipeoutBtnTouchable: {
@@ -29,7 +28,6 @@ var styles = StyleSheet.create({
     top: 0,
   },
   swipeoutContent: {
-    flex: 1,
   },
   colorDelete: {
     backgroundColor: '#fb3d38',
@@ -42,4 +40,4 @@ var styles = StyleSheet.create({
   },
 })
 
-module.exports = styles
+export default styles;

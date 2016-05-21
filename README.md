@@ -45,6 +45,9 @@ onOpen          | func   | Yes      |           |
 right           | array  | Yes      | []        | swipeout buttons on right
 scroll          | func   | Yes      |           | prevent parent scroll
 styles          | style  | Yes      |           | style of the container
+onRightOpen     | func   | Yes      |           | callback
+onLeftOpen      | func   | Yes      |           | callback
+
 
 ##### Button props
 

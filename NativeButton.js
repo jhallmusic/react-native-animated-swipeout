@@ -1,11 +1,11 @@
-import React, {
+import React, {PropTypes} from 'react';
+import {
   TouchableWithoutFeedback,
   TouchableNativeFeedback,
   TouchableHighlight,
   Text,
   StyleSheet,
   Platform,
-  PropTypes,
   View,
 } from 'react-native';
 

@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 //  3rd party dependencies
-import Swipeout from './index.js';
+import Swipeout from 'react-native-animated-swipeout';
 
 const btn = [
   {

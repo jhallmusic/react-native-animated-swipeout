@@ -5,7 +5,7 @@ iOS-style swipeout buttons that appear from behind a component
 
 ## Installation
 ```
-npm install --save react-native-swipeout
+npm install --save react-native-animated-swipeout
 ```
 
 ## Usage example
@@ -64,4 +64,4 @@ disabled        | bool   | Yes      | false     | disable button
 
 ## To Do
 
-[https://github.com/dancormier/react-native-swipeout/issues](https://github.com/dancormier/react-native-swipeout/issues)
+[https://github.com/latusaki/react-native-animated-swipeout/issues](https://github.com/latusaki/react-native-animated-swipeout/issues)

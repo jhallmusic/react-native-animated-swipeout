@@ -55,6 +55,7 @@ class Swipeout extends React.Component {
 
     this.state.panResponder = PanResponder.create({
       onStartShouldSetPanResponder: () => true,
+      onMoveShouldSetPanResponder: () => true,
       onPanResponderGrant: () => {
         let {
           panX,
@@ -70,6 +71,9 @@ class Swipeout extends React.Component {
       ),
       onPanResponderRelease: (e, gestureState) => {
         this.handleEnd(e, gestureState);
+      },
+      onPanResponderTerminationRequest: () => {
+        return false;
       },
       onPanResponderTerminate: (e, gestureState) => {
         this.handleEnd(e, gestureState);
@@ -365,7 +369,7 @@ class Swipeout extends React.Component {
 
 const styles = StyleSheet.create({
   btns: {
-    backgroundColor: 'blue',
+    backgroundColor: 'white',
     flex: 1,
     flexDirection: 'row',
     height: 20,
